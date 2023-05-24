@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    scroll-behavior: smooth;
+    transition: 200ms;
 }
 
 .container {
@@ -22,4 +24,23 @@
 
 .heading__title {
     text-align: right;
+}
+
+.container__download {
+    width: 100%;
+    margin: 2vh auto;
+    text-align: center;
+}
+
+.download__button {
+    display: inline-block;
+    padding: 1% 5%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download__button:hover {
+    background-color: gray;
 }
