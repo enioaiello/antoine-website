@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading__logo {
+    width: 25%;
+}
+
+.heading__title {
+    text-align: right;
+}
