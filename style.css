@@ -32,6 +32,16 @@
     text-align: center;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 .download__button {
     display: inline-block;
     padding: 1% 5%;
@@ -43,4 +53,6 @@
 
 .download__button:hover {
     background-color: gray;
+    color: white;
+    text-decoration: none;
 }
